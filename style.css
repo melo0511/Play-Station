@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: url(imagenes/fondo1.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+main{
+    width: 1024px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+header{
+    padding: 80px;
+    height: 40%;
+    background: url(imagenes/header.jpg);
+}
+
+
+h2{
+    font-size: 25px;
+text-decoration: 50px;
+margin-top: 30px;
+text-align: center;
+}
+
+
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.logo img{
+    width: 250px;
+}
+
+
+.section{
+    padding:80px ;
+}
+
+
+
+.consola{
+    padding: 20px;
+    width: 40%;
+    float: left;
+    margin: 2rem;
+    align-items: center;
+}
+
+.texto-lateral{
+float: left;
+width: 60%;
+margin-top: 120px;
+text-align: justify;
+}
+
+.clear{
+    clear: both;
+}
+
+nav{
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul li{
+    display:  inline-block;
+    text-transform:uppercase;
+}
+
+nav ul li a{
+text-decoration: none;
+background: #ffffff;
+color: #0000ff;
+padding: 10px;
+border-radius: 10px;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+    background-color:#0000ff;
+}
+
+h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.ps4{
+    width: 40%;
+    height: 40%;
+    margin: 5rem;
+}
+
+.cuadro1{
+background:linear-gradient(#0040ff,rgb(141, 160, 248),#0040ff);
+}
+
+#imgps4{
+    height: 1000px;
+    width: 800px;
+}
+
+#imgps5{
+    height: 1000px;
+    width: 800px;
+}
+
