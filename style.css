@@ -268,20 +268,18 @@ text-shadow: 2px 2px 2px black
     text-shadow: 1px 1px 1px #000000;
 }
 
-
 #footer{
     margin-top: 20px;
-    height: 40%;
     align-items: center;
     background: #00439c;
 }
 
 #footer div{
-    margin-top: 50px;
+    margin-top: 1px;
 }
 
 #footer section div img{
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-left: 2rem;
     width: 200px;
     height: 120px;
@@ -290,30 +288,28 @@ text-shadow: 2px 2px 2px black
 
 #footer section{
     background: #00439c;
-  
+    height: 300px;
 }
 
 #footer section div{
     background: #00439c;
-
 }
 
 #section-footer{
     background: #fbfdff;
     border: #000000 1px solid;
     display: flex;
-    width: 100%;
+    overflow: hidden;
 }
 
 #section-support{
     display: flex;
-    width: 60%;
-    height: 100%;
+    width: 20%;
     text-align: center;
     color: #ffffff;
     padding-right: 70px;
-    margin: 1rem;
     align-items: center;
+    margin-left: 3rem;
 }
 
 #footer-1{
