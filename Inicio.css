@@ -21,7 +21,7 @@
 
 #div-inicio1 img{
     margin-top: 3rem;
-    margin-left:12rem ;
+    margin-left:9rem ;
     width: 50%;
 }
 
@@ -46,40 +46,47 @@
 /* Titulo */
 
 #titulo{
-background: #0230c4;
-height: 200px;
-width: 100%;
-position: relative;
+    background: #0230c4;
+    height: 180px;
+    width: 100%;
+    position: relative;
+    font-size: 10px;
+    }
+
+#div-inicio2-1{
+    display: flex;
+    justify-content: center;
+}
+        
+#p1-inicio2{
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: serif;
 }
 
 /* hoja 2 */
 
 #section-inicio2{
 background: #0230c4;
-height: 1000px;
+height: 2000px;
 width: 100%;
-position: relative;
-}
-
-#div-inicio2-1{
-display: flex;
-justify-content: center;
-}
-
-#p1-inicio2{
-    color: #ffffff;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 3rem;
-    font-family: serif;
+overflow: hidden;
 }
 
 #padre-games{
     background-color: #ffffff;
-    height: 80%;
+    height: 1800px;
     width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);;
+    margin: 0 auto;
+    position: relative;
+}
+
+.games{
+    background: #ff0000;
+    height: 500px;
+    width: 25%;
+    margin: 2.5rem;
+    display: inline-block;
 }

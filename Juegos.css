@@ -11,7 +11,7 @@ background-attachment: fixed;
 }
 
 main{
-    width: 85%;
+    width: 1250px;
     background-color: transparent;
     margin: 0 auto;
 }
@@ -26,7 +26,7 @@ header{
 }
 
 nav{
-    width: 23%;
+    width: 35%;
     float: right;
     margin-top: 10px;
 }
@@ -155,6 +155,8 @@ text-shadow: 2px 2px 2px black
     text-shadow: 1px 1px 1px #000000;
     width: 80%;
     float: right;
+    text-align: right;
+    margin-right: 4.5rem;
 }
 
 .texto-lateral2{
@@ -171,7 +173,6 @@ text-shadow: 2px 2px 2px black
 
 .button2{
     padding: 30px;
-    margin-top: 0.5rem;
     margin-right: 3rem;
     float: right;
 }
@@ -224,7 +225,7 @@ text-shadow: 2px 2px 2px black
 
 #logo-turismo{
     filter: drop-shadow(0px 0px 7px #000000);
-    width: 15%;
+    width: 20%;
     margin-top: 2rem;
     margin-left: 6rem;
 }
@@ -318,9 +319,7 @@ text-shadow: 2px 2px 2px black
     width: 20%;
     text-align: center;
     color: #ffffff;
-    padding-right: 70px;
     align-items: center;
-    margin-left: 10em;
     margin-top: 2rem;
     margin-bottom: 8em;
 }
