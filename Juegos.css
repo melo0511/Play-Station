@@ -11,26 +11,28 @@ background-attachment: fixed;
 }
 
 main{
-    width: 1450px;
+    width: 85%;
     background-color: transparent;
     margin: 0 auto;
 }
 
+/* header general */
+
 header{
-    padding: 130px;
-    background: url(imagenes/header.jpg);
+    padding: 150px;
+    background: url(imagenes/header.jpeg);
     background-size:  100% 100%;
+    border: 1px solid #000000;
 }
 
 nav{
-    width: 30%;
+    width: 23%;
     float: right;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 nav ul li{
     display:  inline-block;
-    text-transform:uppercase;
 }
 
 nav ul li a{
@@ -40,7 +42,7 @@ color: #000000;
 padding: 10px;
 border-radius: 10px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+font-size: 20px;
 }
 
 nav ul li a:hover{
@@ -49,9 +51,11 @@ nav ul li a:hover{
     border: 3px solid white;
 }
 
-section{
+/* hoja 1 */
+
+#section1{
     background: url(/imagenes/Game-Horizon.jpg);
-    background-size: 100% 100%;
+    background-size: 120% 130%;
     margin-top: 2em;
     height: 650px;
 }
@@ -126,10 +130,13 @@ text-shadow: 2px 2px 2px black
     border:3px solid #ffffff;
 }
 
+/* hoja 2 */
+
 #section2{
     background: url(/imagenes/Elden-Ring.png);
     height: 650px;
     background-size: 100% 100%;
+    margin-top: 2em;
 }
 
 #logo-elden{
@@ -186,6 +193,8 @@ text-shadow: 2px 2px 2px black
     color: #ffffff;
     border:3px solid #ffffff;
 }    
+
+/* hoja 3 */
 
 #section3{
     background: url(/imagenes/gran-turismo.jpg);
@@ -265,11 +274,13 @@ text-shadow: 2px 2px 2px black
     background: transparent;
     color: #ffffff;
     border:3px solid #ffffff;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 2px 2px 2px #000000;
 }
 
+/* footer general */
+
 #footer{
-    margin-top: 20px;
+    margin-top: 2em;
     align-items: center;
     background: #00439c;
 }
@@ -279,7 +290,7 @@ text-shadow: 2px 2px 2px black
 }
 
 #footer section div img{
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-left: 2rem;
     width: 200px;
     height: 120px;
@@ -309,23 +320,28 @@ text-shadow: 2px 2px 2px black
     color: #ffffff;
     padding-right: 70px;
     align-items: center;
-    margin-left: 3rem;
+    margin-left: 10em;
+    margin-top: 2rem;
+    margin-bottom: 8em;
 }
 
 #footer-1{
 margin-left: 4rem;
 margin-right: 4rem;
+margin-bottom: 2rem;
 white-space: nowrap;
 }
 
 #footer-2{
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 2rem;
     white-space: nowrap;
 }
 
 #footer-3{
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 2rem;
     white-space: nowrap;
 }

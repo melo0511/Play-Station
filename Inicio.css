@@ -1,0 +1,85 @@
+/* hoja 1 */
+
+#section-inicio{
+    background: url(/imagenes/Section-inicio.jpeg);
+    background-size: 125% 100%;
+    height: 1000px;
+    position: relative;
+    margin-top: 2em;
+}
+
+#div-inicio1{
+    margin: 0 auto;
+    height: 550px;
+    width: 45%;
+    background: #000000d4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#div-inicio1 img{
+    margin-top: 3rem;
+    margin-left:12rem ;
+    width: 50%;
+}
+
+#div-inicio2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    width: 70%;
+}
+
+#p1-inicio{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size:50px ;
+    font-style: normal;
+}
+
+/* Titulo */
+
+#titulo{
+background: #0230c4;
+height: 200px;
+width: 100%;
+position: relative;
+}
+
+/* hoja 2 */
+
+#section-inicio2{
+background: #0230c4;
+height: 1000px;
+width: 100%;
+position: relative;
+}
+
+#div-inicio2-1{
+display: flex;
+justify-content: center;
+}
+
+#p1-inicio2{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: serif;
+}
+
+#padre-games{
+    background-color: #ffffff;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+}
