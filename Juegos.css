@@ -19,7 +19,7 @@ main{
 /* header general */
 
 header{
-    padding: 150px;
+    padding: 130px;
     background: url(imagenes/header.jpeg);
     background-size:  100% 100%;
     border: 1px solid #000000;
@@ -99,9 +99,10 @@ margin-left: 4rem;
 float: left;
 width: 40%;
 text-align: justify;
-font-size: 22px;
+font-size: 20px;
 color: #ffffff;
-text-shadow: 2px 2px 2px black
+text-shadow: 1px 1px 1px black;
+font-family: sans-serif;
 }
 
 .clear{
@@ -128,6 +129,7 @@ text-shadow: 2px 2px 2px black
     background: transparent;
     color: #ffffff;
     border:3px solid #ffffff;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 /* hoja 2 */
@@ -140,9 +142,9 @@ text-shadow: 2px 2px 2px black
 }
 
 #logo-elden{
-    width: 30%;
+    width: 35%;
     float: right;
-    margin-right: 3rem;
+    margin-right: 2.5rem;
     filter: drop-shadow(0px 0px 7px #000000);
 }
 
@@ -165,10 +167,11 @@ text-shadow: 2px 2px 2px black
     margin-right: 1.5rem;
     width: 45%;
     text-align: right;
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     float: right;
+    font-family: sans-serif;
 }
 
 .button2{
@@ -193,6 +196,7 @@ text-shadow: 2px 2px 2px black
     background: transparent;
     color: #ffffff;
     border:3px solid #ffffff;
+    text-shadow: 1px 1px 1px #000000;
 }    
 
 /* hoja 3 */
@@ -205,7 +209,7 @@ text-shadow: 2px 2px 2px black
 }
 
 .logo{
-    width: 30%;
+    width:20%;
     float: left;
 }
 
@@ -225,7 +229,7 @@ text-shadow: 2px 2px 2px black
 
 #logo-turismo{
     filter: drop-shadow(0px 0px 7px #000000);
-    width: 20%;
+    width: 22%;
     margin-top: 2rem;
     margin-left: 6rem;
 }
@@ -246,9 +250,10 @@ margin-left: 4rem;
 float: left;
 width: 45%;
 text-align: justify;
-font-size: 22px;
+font-size: 20px;
 color: #ffffff;
-text-shadow: 2px 2px 2px black
+text-shadow: 1px 1px 1px black;
+font-family: sans-serif;
 }
 
 .clear{
@@ -275,7 +280,162 @@ text-shadow: 2px 2px 2px black
     background: transparent;
     color: #ffffff;
     border:3px solid #ffffff;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+/* hoja 4 */
+
+#section4{
+    background: url(/imagenes/Assassins\ creed.jpeg);
+    height: 650px;
+    background-size: 100% 100%;
+    margin-top: 2em;
+}
+
+#logo-assassin{
+    width: 35%;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 6rem;
+    filter: drop-shadow(0px 0px 2px #000000);
+}
+
+.txt4{
+    font: small-caps 100%/200% serif;
+    padding-left: 36.5%;
+    font: serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    width: 80%;
+    float: right;
+    text-align: right;
+    margin-right: 4.5rem;
+    margin-top: 4rem;
+}
+
+.texto-lateral4{
+    padding: 50px;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    width: 40%;
+    text-align: right;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    float: right;
+    font-family: sans-serif;
+    word-spacing: 5px;
+}
+
+.button4{
+    padding: 20px;
+    margin-right: 3rem;
+    float: right;
+}
+    
+.button4 a{
+    text-decoration: none;
+    background: #ffffff;
+    color: #000000;
+    border:3px solid #ffffff;
+    border-radius: 50px;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display:  inline-block;
+    border: 3px solid rgba(255, 255, 255, 0.362);
+}
+
+.button4 a:hover{
+    background: transparent;
+    color: #ffffff;
+    border:3px solid #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+}    
+
+/* hoja 5 */
+
+#section5{
+    background: url(/imagenes/Ghostwire.jpg);
+    background-size: 100% 100%;
+    margin-top: 2em;
+    height: 650px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.logo img{
+    width: 250px;
+}
+
+.section{
+    padding:80px ;
+    margin: 5rem;
+    margin-top: 30px;
+}
+
+.section img{
+    border-image-slice: 100%;
+}
+
+#logo-vacio{
+    width: 30%;
+    height: 200px;
+    background-color: transparent;
+    margin-left: 6em;
+}
+
+.txt5{
+    font: small-caps 100%/200% serif;
+    padding: 50px;
+    margin-left: 3rem;
+    font: serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000
+}
+
+.texto-lateral5{
+padding: 30px;
+margin-left: 4rem;
+float: left;
+width: 45%;
+text-align: justify;
+font-size: 20px;
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+font-family: sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.button5{
+    padding: 30px;
+    margin-left: 4rem;
+}
+
+.button5 a{
+    text-decoration: none;
+    background: #ffffff;
+    color: #000000;
+    border:3px solid #ffffff;
+    border-radius: 50px;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display:  inline-block;
+}
+.button5 a:hover{
+    background: transparent;
+    color: #ffffff;
+    border:3px solid #ffffff;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 /* footer general */
@@ -325,22 +485,22 @@ text-shadow: 2px 2px 2px black
 }
 
 #footer-1{
-margin-left: 4rem;
-margin-right: 4rem;
+margin-left: 3rem;
+margin-right: 3rem;
 margin-bottom: 2rem;
 white-space: nowrap;
 }
 
 #footer-2{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-bottom: 2rem;
     white-space: nowrap;
 }
 
 #footer-3{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-bottom: 2rem;
     white-space: nowrap;
 }
